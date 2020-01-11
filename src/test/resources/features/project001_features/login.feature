@@ -69,4 +69,5 @@ Feature: Login
     Examples: drivers
       | link     | title          | navItem       | first     | second   | third    |
       | API Docs | Restful-booker | GetBookingIds | firstname | lastname | checkin |
+      | API Docs | Restful-booker | GetBookingIds | firstname | lastname | checkin |
 
