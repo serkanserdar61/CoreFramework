@@ -1,0 +1,108 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-04T05:29:57.860Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1834822268,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Login and verify table values",
+        "description": "",
+        "id": "login;login-and-verify-table-values;drivers;2",
+        "after": [
+          {
+            "result": {
+              "duration": 92946520,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "user is on the restful booker login page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "user navigates to \"API Docs\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "verify title should be \"Restful-booker\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "click on \"GetBookingIds\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 67,
+            "name": "verify table values \"firstname\" , \"lastname\" , \"checkin\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F0001"
+          },
+          {
+            "name": "@login_ddt_3"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user, I want to be able to login into restful booker\n  to test web services",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/project001_features/login.feature",
+    "tags": [
+      {
+        "name": "@F0001",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
